@@ -1,0 +1,83 @@
+ 
+ @media screen { .container { max-width: 1200px; min-height: 800px;} } 
+ 
+ .col { padding:0 15px; margin:0 ! important; } 
+ a:not([href]):not([tabindex]) { color: white; }
+ a { text-decoration: none; }
+
+
+ /* ------ SCROLLBARS ------ */
+ ::-webkit-scrollbar         { width: 7px; height: 10px; cursor: pointer; }
+ ::-webkit-scrollbar-thumb   { background:rgb(223, 110, 5); border-radius: 4px; border: 1px solid dimgrey;}
+
+ li                          { list-style: none; }
+
+ 
+/* ------ SCROLLBARS ------ */
+#monFormulaire               { margin-top: 35px; margin-bottom: 35px; padding-left: 17px; }
+#test2                       { display: table; width: 350px; height: 80px; margin: 10px 0% 10px 41%;
+                               border-radius: 5px; background-color: red; background: rgb(144,206,161); 
+                               background: linear-gradient(90deg, rgba(144,206,161,1) 0%, rgba(1,180,228,1) 100%); 
+                             }
+
+.inputFormSaisie             { padding: 5px; border: 1px solid gray; border-radius: 5px; outline: 0;     width: 900px; }
+.inputFormButton             { padding: 5px 8px; border: 1px solid gray; border-radius: 5px; outline: 0; cursor: pointer;
+                               font-family: "Quicksand", sans-serif; color:  #13253b;} 
+.inputFormButton:hover       { background-color : lightskyblue; }
+#SearchBar                   { width: 1200px; }
+
+
+.inputFormSaisie             { width: 50%; padding: 0px 5px; border: 1px solid gray; border-radius: 5px 0px 0px 5px; outline: 0; font-family: 'Lora'; font-size: 0.9em; border-right: none  ;  width: 900px;}
+.inputFormButton             { padding: 0px 8px; border: 1px solid gray; border-radius: 0px 5px 5px 0px; outline: 0; cursor: pointer; font-family: 'Lora'; font-size: 0.9em; margin-left: -5px; }
+.inputFormButton:hover       { background-color : lightskyblue; } */
+
+#liste                       { float: left; width: 100%; background-color:#57BA9E; padding: 15px; border-radius: 10px; } 
+#liste li                    { background-color: #13253b; margin-bottom: 2px; border-radius: 5px; padding-left: 3%; padding-bottom: 3px; border: 0.2px solid dimgrey;}
+#liste li a                  { position: relative; text-decoration: none; cursor: pointer; font-family: "Quicksand"; font-weight: 400; font-size: 0.9em; color: floralwhite;}
+#liste li a:hover            { text-decoration: underline; }
+#liste li:hover              { background-color: #1b4374;}
+
+.libelles                    { float: left; width: auto; margin-top: 2px; font-family: 'Quicksand', sans-serif; color: rgb(13, 37, 63); } 
+.libelles:hover              { text-decoration: none; }
+.nouveau                     { float: none; width: auto; font-family: 'Quicksand', sans-serif; color: black;text-decoration: none; font-weight: normal; }
+
+
+#resultats                   { display: none; float: left;  width: 100%; height: auto; padding: 15px; border-radius: 10px; border: 1px solid lightgrey}
+#newA                        { float: left;  width: 100%; height: auto; padding: 15px; border-radius: 10px; border: 1px solid lightgrey; 
+                               background-color:rgb(70, 70, 70); margin: 5px 0px; }
+
+.fields                      { float: left; width: 100%; border-radius: 5px; border: 0.6px solid grey; padding: 8px 10px; font-family: "Quicksand", sans-serif;
+                               font-size: 11pt; margin-bottom: 3px; background: rgb(49, 47, 59); }
+.fields a                    { color: ivory; }
+.padding2                    { padding-top: 4px; padding-bottom: 4px}
+
+#poster_value img            { border-radius: 10px; border: 1px solid lightgray; width: 100%; }
+
+#viewActors                  { margin: -15px 0px 10px 0px; font-family: 'Quicksand, sans-serif'; font-size: 0.8em; ; color: black; cursor: pointer; }
+#viewActors:hover            { text-decoration: underline; color: blue; }
+.castactor_name              { font-size: 1.2em; margin: 0px 50px; }
+.actor_name:hover            { cursor: pointer; text-decoration: underline }
+#acteurs_value               { float: right; font-family:'Quicksand'; font-size: 11pt; }
+
+#starPics                    { position: relative; display: flex; float: left; padding-bottom: 8px; float: left; overflow-x: scroll;
+                               margin:0px 10px; justify-content: space-between; } 
+#starPics img                { margin-right: 5px; margin-left: 0px; border-radius: 6px; cursor: pointer}
+.cast:hover                  { border: 1px solid lightgrey; box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; 
+                               -webkit-border: 5px; -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; }
+
+
+/* ------- MODAL INFO -------- */
+#Modal_Info                  { position: fixed; display: none; top: 50%; width: 100%; height: 100%;  
+                               padding: 10px; border-radius: 10px; margin-bottom: 25px; opacity: 0; transform: translateY(-50%); }
+.info_modal                  { width: fit-content; height: 75%; margin: 0 auto; border-radius: 15px; box-shadow: rgba(218, 26, 26, 0.5) 0px 0px 10px 5px; -moz-border-radius: 15px; }
+.info_header                 { height: auto; background-color: #0e2777; border-radius: 8px 8px 0px 0px; padding: 12px 10px 10px 15px; border: 1px solid #000; border-bottom: none; }
+.info_body                   { background-color: #000000; margin: 0 auto; height: 100%; padding: 20px 20px; border: 1px solid #000; border-top: none; border-bottom: none; }
+.info_footer                 { background-color: #374881; border-radius: 0px 0px 8px 8px; padding: 8px 16px; margin-top: -1px ; border: 1px solid #000; border-top: none; text-align: center; }
+#info_title                  { display: inline; width: 90%; color:burlywood;}
+#info_title a                { width: 80%; text-align: left;  font-family: "Quicksand", sans-serif; font-size: 11pt; }
+#info_fermer                 { float: right; width: 18px; height: auto; cursor: pointer; margin: -2px 2px 0px 0px; }
+.info_msg                    { width: auto; height: 100%; text-align: center; font-family: 'Lora'; font-size: 10pt; line-height: 1.3; margin-bottom: 0px; color: #fff; overflow-y: scroll  }
+.info_msg p                  { margin-bottom: 0px; }
+.ModalBtnOK                  { width: auto; margin: 0 auto; padding: 5px 15px; text-align: center; cursor : pointer;
+                               border-radius: 5px; border: 1px solid #000000; outline: 0; background-color: rgb(194, 200, 209); transition-duration: 0.4s;}
+.ModalBtnOK:hover            { background-color: rgb(18, 104, 78); color: #fff; border-color: rgb(112, 102, 102)}

@@ -1,0 +1,28 @@
+/* COULEURS PREDEFINIES */
+.ColorA1       { color : rgb(141, 154, 155);}
+.ColorA2       { color : black;}
+.ColorA3       { color : olive;}
+.ColorA4       { color : white}
+.ColorA5       { color : rgb(230, 217, 217)}
+.ColorA6       { color : rgb(118, 158, 243)}
+.ColorA7       { color : rgb(228, 192, 114)}
+
+
+/* DEGRADES DE COULEURS */
+.degrade01    { background-color: #13253b;}
+
+.degrade02    { background-color: #57BA9E;}
+
+.module {
+    padding: 1rem;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        dimgrey, 
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+  }
+

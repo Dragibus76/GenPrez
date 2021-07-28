@@ -1,0 +1,88 @@
+html, body                { margin:0; padding: 0; min-height: 100%; }
+#main                     { position: relative; height: 100%; margin-bottom: 40px; }
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+input:-internal-autofill-selected { background-color: transparent; }
+input:-internal-light-dark { background-color: transparent; }
+
+#Generateur_manuel        { font-size: 25px; font-family: "Gotham HTF"; text-align: center; }
+
+.avertisement_inscription { color: red; font-family: "Gotham HTF"; text-align: center; }
+.Mise_en_forme            { width: 800px; max-width: 100%; margin-left: auto; margin-right: auto; }
+
+.Encadrement              {	width: 800px; padding: 20px; margin-top: 40px; margin-left: auto; margin-right: auto; background-color: #fff;
+                            -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+                            -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); }
+
+.bouton_titre_generateur  { width: 35%; background-color: #13253b; border-radius: 5px ; font-size: 0.9em; font-family: "Quicksand", sans-serif;
+                            color: white; padding: 5px 12px; float: left; margin-top: 10px; }
+.input_generateur         { float: left; height: auto; width: 64%; border-radius: 5px; font-family: "Quicksand", sans-serif; font-size: 1em;
+ 	                          color: #13253b; padding: 4px 5px; margin-top: 10px; margin-left: 1%; border: 1px solid #13253b; }
+
+/* METTRE UNE CAROTTE A BOOTSTRAP -------------------------------------------------------------------------------------------------------------------*/
+button:focus              { outline: 0; }
+table                     { width: auto; margin-left: auto; margin-right: auto; }
+option                    { color: black; }
+fieldset                  { text-align: center; width: 288px; border-radius: 3px; font-family: "Gotham HTF"; color: black; }
+label                     {	font-family: "Gotham HTF"; color: black; }
+.textarea                 {	height: 200px; width: 300px; border-radius: 3px; font-family: "Gotham HTF";	color: black; padding:5px; }
+strong                    { font-family: "Gotham HTF"; text-shadow: 1px 1px 2px red, 0 0 1.5em white, 0 0 1.5em black;}
+
+
+/* CHECKBOX PERSONNALISE */
+input[type=checkbox]      { -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; outline: 0; }
+input[type=checkbox]      { border-radius:4px; height: 15px; width: 15px; cursor: pointer; background: #fff; border: 1px solid #000; }
+input[type=checkbox]:checked  { background: rgb(10, 17, 83); margin:0px; position: relative;
+                                &:before { font-family: FontAwesome; content: '\f00c'; display: block; color: grey; font-size: 13px; position: absolute; }
+                              }
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* FORM : Generateur.php + Generateur_Manuel_reponse.php */
+.bouton_previsualiser     { width: auto; background-color: #f34d0c; border-radius: 3px;	font-size: 18px; font-family: "Gotham HTF";
+	                          color: white;	padding:5px; align-items: center; }
+.bouton_valider           { position: relative; display: block; margin: 0 auto; height: auto; width: 20%; background-color: rgb(223, 110, 5); border-radius: 3px ; border: 1px solid;
+                            font-size: 1em; font-family: "Quicksand", sans-serif; font-weight: 700; color: #13253b; padding: 5px; outline: 0}
+.bouton_valider:hover     { background-color: #0c83f3; color: #fff; border: 1px solid #000; }
+.bouton_generation        { position: relative; width: 100px; background-color: #414446; border-radius: 3px; font-size: 18px; font-family: "Gotham HTF";
+                            color: white; padding:5px; }
+.bouton_generation:hover  {  background: -webkit-linear-gradient(top,  #40576d, rgb(25,25,25));  background: -o-linear-gradient(top,  #40576d, rgb(25,25,25)); }
+.generation               { display: block; width: 10px; background-color:transparent; border-radius: 3px; font-size: 15px; font-family: "Gotham HTF"; border:none; 
+                            overflow: hidden; height: 0px; resize: none; color: white; padding:5px; text-align: left; outline: 0; margin: 0 auto; }
+
+/* DEGRADES DE COULEURS */
+.degrade01                { background-color: #13253b;}
+.degrade02                { background-color: #57BA9E;}
+
+/* INPUTS + LABELS dans : Selection multiples */
+.parentCheckboxes         { position: relative; float: left; width: 64%; margin: 9px 0% 0% 1%; padding: 5px 5px 7px 5px; border: 1px solid  #13253b; border-radius: 5px; }
+.myLabels                 { margin-left: 5px; font-family: "Quicksand", sans-serif; color: aliceblue; }
+.blocInputLabel           { margin-bottom: -4px; }
+
+#blocInputs               { margin: 0 auto; width: 60%; text-align: center; background-color: #fff; border: 1px solid transparent; border-radius: 20px; overflow: hidden; }
+/*#blocInputs               { margin: 0 auto; width: 60%; text-align: center; background-color: #fff; border: 1px solid gray; border-radius: 20px; overflow: hidden; }*/
+     
+
+.inputFormButton          { width: 30%; float: right; padding: 5px 8px; border: 2px solid transparent; border-radius: 20px; outline: 0; cursor: pointer;
+                            font-family: "Quicksand", sans-serif;font-weight: 600; color:  white; background-color: #13253b;} 
+
+.inputFormSaisie          { width: 70%; height: 32px; margin: 0px; outline: 0; border-color: transparent;  }
+/* .inputFormButton          { width: 30%; float: right; padding: 5px 8px; border: 1px solid gray; border-radius: 20px; outline: 0; cursor: pointer;
+                            font-family: "Quicksand", sans-serif; color:  #13253b;}  */
+
+/* RESULTATS PAGE SEARCH */
+.bloc1                    { width: 100%; height: auto; float: right; border-radius: 5px; box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.3);
+                            -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.3); -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.3); 
+                            background-color: white; }
+
+.bloc2                    { width: 100%; height: auto; background-color: white; border-radius: 5px;  }
+.bloc2 a                  { text-decoration: none; }
+.cadre                    { box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.3);-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.3); 
+                            -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.3);  }
+
+/* FOOTER */
+footer                    { display: inline-table; left: 0; bottom: 0; width: 100%; height: auto;
+                            background-color: rgb(13, 37, 63); padding: 30px 0px;  }
+.logofooter               { display: block; padding: 10px; width: 200px; height: auto; margin: 0 auto; }
+.test_nouveau             { font-family: "Quicksand", sans-serif; color: rgb(144, 206, 161); font-size: 15px; }
+.texte_footer             { text-align: center; font-family: "Quicksand", sans-serif; color: rgb(144, 206, 161); font-size: 15px; }

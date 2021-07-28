@@ -1,0 +1,32 @@
+01 - Titre_Film
+02 - Description
+03 - Affiche
+
+04 - Acteurs
+05 - Realisateur
+06 - Annee_Prod
+07 - Genre
+     Genre2
+     Genre3
+05 - Origine
+06 - Duree_Film
+07 - Date_Sortie
+08 - Distributeur
+09 - Synopsis
+10 - Hebergeur
+11 - Nom_Uploader
+12 - Nom_Release
+13 - Nom_Source
+14 - Qualite_Video
+15 - Qualite_Audio
+16 - Codec_Vidéo
+17 - Codec_Audio
+18 - Langue
+     Langue2
+19 - Sous_Titres
+     Sous_Titres2
+     Sous_Titres3
+20 - Bitrate_Video
+21 - Bitrate_Audio
+22 - Taille
+jai oublié titre du film , description , affiche
